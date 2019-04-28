@@ -37,5 +37,6 @@ public class FuncionarioV2 {
         System.out.println(dataEntrada);
         System.out.println(rg);
         System.out.println(ativo);
+        //System.out.println(nomeFuncionario + "\n" + departamento + "n"...);
     }
 }

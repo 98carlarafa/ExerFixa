@@ -37,6 +37,8 @@ public class FuncionarioV3 {
         System.out.println(dataEntrada.dia + "/" + dataEntrada.mes + "/" + dataEntrada.ano);
         System.out.println(rg);
         System.out.println(ativo);
+        
+        dataEntrada.mostraData();
     }
     
    

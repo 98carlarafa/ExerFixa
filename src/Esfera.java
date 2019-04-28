@@ -6,17 +6,16 @@
 
 /**
  *
- * @author ifnmg
+ * @author Rafa
  */
-public class Data {
+public class Esfera {
     
-    int dia;
-    int mes;
-    int ano;
+    double raio;
+    double volume;
     
-    void mostraData(){
-    
+    void calculaVolume(){
         
+        volume = (4.0 / 3) * Math.pow(raio, 3);
     }
- 
+    
 }

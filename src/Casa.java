@@ -21,7 +21,24 @@ public class Casa {
     }    
     
     int quantasPortasEstaoAbertas(){
-        return 0;
+       
+       int portasAbertas = 0;
+       
+       if(porta1){
+       
+           portasAbertas = portasAbertas + 1;
+       }
+       
+       if(porta2){
+       
+           portasAbertas = portasAbertas + 1;
+       }
+       
+       if(porta3){
+       
+           portasAbertas = portasAbertas + 1;
+       }
+       return portasAbertas;
       
     }   
     

@@ -39,19 +39,15 @@ public class FuncionarioV4 {
         System.out.println(ativo);
     }
     
-    void equals (FuncionarioV4 Funcionario){
-        if ((this.nomeFuncionario == Funcionario.nomeFuncionario) &&
-                (this.departamento == Funcionario.departamento) &&
-                (this.salario == Funcionario.salario) &&
-                (this.dataEntrada.dia + this.dataEntrada.mes + this.dataEntrada.ano == 
-                    Funcionario.dataEntrada.dia + Funcionario.dataEntrada.mes + Funcionario.dataEntrada.ano) &&
-                (this.rg == Funcionario.rg) &&
-                (this.ativo == Funcionario.ativo))
-                    
-                System.out.println ("São Iguais");
-                    else
-                        System.out.println("Não são iguais");     
+    boolean equals (FuncionarioV4 outroFuncionario){
+        if (this.nomeFuncionario.equals(outroFuncionario.nomeFuncionario) &&
+                (this.rg.equals(outroFuncionario.rg))){
+            return true;
+        }
         
+            return false;
     }
-    
 }
+
+    
+ 

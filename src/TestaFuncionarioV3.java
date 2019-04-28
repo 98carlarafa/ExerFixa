@@ -13,23 +13,25 @@ public class TestaFuncionarioV3 {
         
         FuncionarioV3 fv3 = new FuncionarioV3 ();
         
-        Data d3 = new Data ();
-        fv3.dataEntrada = d3;
-        
         fv3.nomeFuncionario = "Carla Rafaela";
         fv3.departamento = "Caixa";
         fv3.salario = 1500 ;
-        fv3.dataEntrada.dia = 17;
-        fv3.dataEntrada.mes = 04;
-        fv3.dataEntrada.ano = 2019;
         fv3.rg = "12.312.007";
         fv3.ativo = true;
+        
+        Data d3 = new Data ();
+        d3.dia = 17;
+        d3.mes = 04;
+        d3.ano = 2019;
+        
+        fv3.dataEntrada = d3;
       
         fv3.bonifica(10);
               
         fv3.demite();       
         
         fv3.mostrar();
+        
     }
     
 }

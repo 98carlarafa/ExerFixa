@@ -6,17 +6,22 @@
 
 /**
  *
- * @author ifnmg
+ * @author Rafa
  */
-public class Data {
+public class Produto {
     
-    int dia;
-    int mes;
-    int ano;
+    double preco;
+    String nome;
     
-    void mostraData(){
+    void diminuir10(){
     
-        
+        preco = preco * 0.9; 
     }
- 
+    
+    void aumenta25(){
+    
+        preco = preco * 1.25;
+    }
+
+    
 }

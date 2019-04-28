@@ -8,17 +8,15 @@
  *
  * @author Rafa
  */
-public class TestaCasa {
+public class TestaEsfera {
     public static void main (String [] args){
     
-        Casa c = new Casa ();
-        c.cor = "Rosa";
-        c.porta1 = true;
-        c.porta2 = false;
-        c.porta3 = true;
-                
+        Esfera e = new Esfera();
+        e.raio = 150;
+        System.out.println (e.volume);
         
-        System.out.println(c.quantasPortasEstaoAbertas());
+        e.calculaVolume();
+        System.out.println(e.volume);
     }
     
 }

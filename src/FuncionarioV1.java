@@ -15,7 +15,7 @@ public class FuncionarioV1 {
     double salario;
     String dataEntrada;
     String rg;
-    boolean ativo;
+    boolean ativo = true;
     
     
     void bonifica (double aumento){

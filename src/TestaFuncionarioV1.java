@@ -17,7 +17,6 @@ public class TestaFuncionarioV1 {
         fv1.salario = 1500 ;
         fv1.dataEntrada = "01/01/2019";
         fv1.rg = "12.312.007";
-        fv1.ativo = true;
         fv1.bonifica(10);
         
         System.out.println(fv1.salario);
